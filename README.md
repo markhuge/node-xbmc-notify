@@ -29,7 +29,7 @@ xbmc.notify("This is a title", "This is a message", "<optional image URI>");
 
 ### Methods
 
-#### *.config(<config object>)*
+#### `.config(<config object>)`
 
 This is an optional configuration object with the following properties:
 
@@ -37,9 +37,10 @@ This is an optional configuration object with the following properties:
 - user - XBMC user
 - password - XBMC password
 - image - Default image icon for all notifications. Will apply to all notifications unless overwritten.
+- title - Default title for all notifications. Will apply to all notifications unless overwritten.
+- message - Default msg for all notifications. Will apply to all notifications unless overwritten.
 
-#### *.notify(<msg>,[title],[image URI])*
-
+#### `.notify(<msg>,[title],[image URI])`
 - title - Notification title
 - msg - Notification message
 - image URI - optional image URI
