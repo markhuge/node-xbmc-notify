@@ -1,0 +1,16 @@
+{
+  "name": "xbmc-notify",
+  "description": "Send notifications to your XBMC from Node.js",
+  "author": "Mark Wilkerson <mark@segfawlt.net>",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "devDependencies": {
+    "chai": "1.9.1",
+    "mocha": "1.19.0",
+  },
+  "dependencies": {
+    "post-json": "~0.3.0"
+  }
+}
