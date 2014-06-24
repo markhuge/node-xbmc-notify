@@ -1,4 +1,4 @@
-node-xbmc-notify ![Dependency Status](https://gemnasium.com/markhuge/node-xbmc-notify.svg)
+node-xbmc-notify [![Code Climate](https://codeclimate.com/github/markhuge/node-xbmc-notify.png)](https://codeclimate.com/github/markhuge/node-xbmc-notify) ![Dependency Status](https://gemnasium.com/markhuge/node-xbmc-notify.svg) 
 ================
 
 > Send notifications to your XBMC from Node.js
