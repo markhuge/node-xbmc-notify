@@ -1,8 +1,9 @@
-node-xbmc-notify
+node-xbmc-notify ![Dependency Status](https://gemnasium.com/markhuge/node-xbmc-notify.svg)
 ================
+
 > Send notifications to your XBMC from Node.js
 
-It looks like  my [slightly bulkier project](https://github.com/markhuge/xbmc-shiznaz-supreme) is being used almost exclusively for XBMC notifications. If that's the case, I'd rather release an ultra-lightweight version that does only that.
+It looks like  my [slightly bulkier project](https://github.com/markhuge/xbmc-shiznaz-supreme) is being used almost exclusively for XBMC notifications. If that's the case, I'd rather release a more lightweight version that does only that.
 
 
 ### Install:
