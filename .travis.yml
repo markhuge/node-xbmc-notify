@@ -10,3 +10,6 @@ deploy:
   on:
     tags: true
     repo: markhuge/node-xbmc-notify
+env:
+  global:
+    secure: JjjjVl8cWj9QKJa6CMRIedEWQ1PM+/qBMRk2Sy1C+y8MO6OwKxmVWiyovFy5+1tEEJgjoBQFg3GIUFxYzp0Gbp5RmTHn+XUx4N2PxSGYhOrebL3EqGvaUtuNBOaybICi84eVdjtmc2O2I0KE3k0falkD8PwQA8lZyRorvXFiVgI=
