@@ -2,3 +2,11 @@ language: node_js
 node_js:
 - '0.10'
 - '0.11'
+deploy:
+  provider: npm
+  email: mark@segfawlt.net
+  api_key:
+    secure: YSAZtPQICoDB3RUAvyjZniIE0GK/qLmwjLyOGZY6brCkJkoOeE29ZBrLDD/gUderakP/kAHRekaeroAUC63OU6s2WUVGl5JWRLLW3PF5v/Bm/oo2PnSQ6BpVg/RRThWm9qjdkEVDKxscO9zeDXNv4Tk2+RdxvLDLpXVEdi10fw0=
+  on:
+    tags: true
+    repo: markhuge/node-xbmc-notify
