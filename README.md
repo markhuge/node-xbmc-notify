@@ -1,4 +1,4 @@
-node-xbmc-notify [![Code Climate](https://codeclimate.com/github/markhuge/node-xbmc-notify.png)](https://codeclimate.com/github/markhuge/node-xbmc-notify) ![Dependency Status](https://gemnasium.com/markhuge/node-xbmc-notify.svg) [![Coverage Status](https://img.shields.io/coveralls/markhuge/node-xbmc-notify.svg)](https://coveralls.io/r/markhuge/node-xbmc-notify)
+node-xbmc-notify [![Build Status](https://travis-ci.org/markhuge/node-xbmc-notify.svg)](https://travis-ci.org/markhuge/node-xbmc-notify) [![Code Climate](https://codeclimate.com/github/markhuge/node-xbmc-notify.png)](https://codeclimate.com/github/markhuge/node-xbmc-notify) ![Dependency Status](https://gemnasium.com/markhuge/node-xbmc-notify.svg) [![Coverage Status](https://img.shields.io/coveralls/markhuge/node-xbmc-notify.svg)](https://coveralls.io/r/markhuge/node-xbmc-notify)
 ================
 
 > Send notifications to your XBMC from Node.js

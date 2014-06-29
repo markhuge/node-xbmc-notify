@@ -2,7 +2,11 @@
   "name": "xbmc-notify",
   "description": "Send notifications to your XBMC from Node.js",
   "author": "Mark Wilkerson <mark@segfawlt.net>",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markhuge/node-xbmc-notify.git"
+    },
   "scripts": {
     "test": "npm run unit && npm run ci-cov && npm run coveralls",
     "unit": "mocha -R spec",
