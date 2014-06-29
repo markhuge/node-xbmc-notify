@@ -41,7 +41,8 @@ This is an optional configuration object with the following properties:
 - title - Default title for all notifications. Will apply to all notifications unless overwritten.
 - message - Default msg for all notifications. Will apply to all notifications unless overwritten.
 
-#### `.notify(<msg>,[title],[image URI])`
+#### `.notify(<msg>,[title],[image URI],callback)`
 - title - Notification title
 - msg - Notification message
 - image URI - optional image URI
+- callback - returns (<error>,<response object>)
