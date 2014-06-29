@@ -4,7 +4,7 @@
   "author": "Mark Wilkerson <mark@segfawlt.net>",
   "version": "0.0.1",
   "scripts": {
-    "test": "npm run unit && npm run ci-cov",
+    "test": "npm run unit && npm run ci-cov && npm run coveralls",
     "unit": "mocha -R spec",
     "watch": "mocha -w -R spec",
     "ci-cov": "mocha -r blanket -R travis-cov",

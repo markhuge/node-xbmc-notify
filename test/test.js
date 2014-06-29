@@ -2,7 +2,13 @@
 
 var mocha  = require('mocha'),
     expect = require('chai').expect,
-    xbmc   = require('../index.js');
+    xbmc   = require('../index.js'),
+    sinon  = require('sinon');
+
+sinon.stub(xbmc,'post', function (uri,json,callback) {
+  callback(undefined,{statusCode: 200});
+});
+
 
 describe('XBMC Notify', function () {
 
@@ -31,9 +37,12 @@ describe('XBMC Notify', function () {
   });
 
   it('Send notification', function (done){
-    xbmc.notify('this is a msg');
-
-    done();
+    xbmc.notify('this is a msg','Title','http://path/to/image',function(err,res){
+      expect(err).to.not.be.ok;
+      expect(res).to.have.deep.property('statusCode',200);
+      done();
+    });
+    
   });
 
 });
