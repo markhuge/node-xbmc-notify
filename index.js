@@ -16,14 +16,13 @@ XBMC.prototype.config = function (obj) {
 };
 
 XBMC.prototype.notify = function (msg,title,image,callback) {
-  
+
   if (!callback) callback = function () {};
   var params = {
     title : title || this._config.title,
-    message   : msg || this._config.message
+    message   : msg || this._config.message,
+    image   : image || this._config.image
   };
-  
-  if (image) params.image = image;
 
   var json = { jsonrpc: "2.0", method: "GUI.ShowNotification", params: params, id: 1 };
   var uri = "http://" + this._config.host + '/jsonrpc';
